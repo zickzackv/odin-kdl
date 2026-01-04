@@ -1,0 +1,7 @@
+node1 {
+ subNode1
+ subNode2 "value"
+ subNode3 attribute=#true {
+  subSubNode3 #false value
+ }
+}
