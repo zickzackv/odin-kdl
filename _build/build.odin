@@ -5,7 +5,7 @@ import "core:strings"
 import os "core:os/os2"
 
 CONFIGURATION :: #config(CONFIGURATION, "Release")
-SHARED_LIB :: #config(SHARED_LIB, "ON")
+SHARED_LIB :: #config(SHARED_LIB, "OFF")
 
 root_directory :: #directory + "../"
 build_directory :: root_directory + "build"
