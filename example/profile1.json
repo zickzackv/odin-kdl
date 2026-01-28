@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Dota",
+    "profileNumber": 1,
+    "settings": [
+      [ "rate", "set", "1000" ],
+      [ "button", "3", "action", "set", "key", "KEY_GRAVE" ],
+      [ "button", "4", "action", "set", "button", "3" ],
+      [ "button", "5", "action", "set", "key", "KEY_1" ],
+      [ "button", "9", "action", "set", "macro", "KEY_A" ],
+      [ "button", "10", "action", "set", "macro", "KEY_M" ],
+      [ "resolution", "0", "disabled", "set" ],
+      [ "resolution", "1", "disabled", "set" ],
+      [ "resolution", "default", "set", "3" ],
+      [ "resolution", "active", "set", "3" ]
+    ]
+  }
+]

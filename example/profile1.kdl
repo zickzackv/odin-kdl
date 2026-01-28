@@ -1,0 +1,32 @@
+// First KDL version of a profile
+Profile 1  active=#true {
+   Name "Dota2"
+   Rate 1000
+   Button 3 {
+     Key "Key_Grave"
+   }
+   Button 4 {
+     Button 3
+   }
+   Button 5 {
+     Key "Key_1"
+   }
+   Button 9 {
+     Macro "KEY_A"
+   }
+   Button 10 {
+     Macro "KEY_M"
+   }
+   Led 1 {
+     Mode "on"
+     Color 0x16FFFFFF
+     Duration 10
+     Brightness 10
+   }
+   Resolution 3 enable=#true active=#true {
+     DPI 10
+   }
+   Resolution 0 enable=#false
+   Resolution 1 enable=#false
+}
+

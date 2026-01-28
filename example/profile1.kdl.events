@@ -1,0 +1,73 @@
+// ckdl-parse-events output from file profile1.kdl
+
+// KDL_EVENT_START_NODE name=Profile value=#null
+// KDL_EVENT_ARGUMENT value=1
+// KDL_EVENT_ARGUMENT value=Dota2
+// KDL_EVENT_PROPERTY name=active value=#true
+// KDL_EVENT_START_NODE name=Rate value=#null
+// KDL_EVENT_ARGUMENT value=1000
+// KDL_EVENT_END_NODE value=#null
+// KDL_EVENT_START_NODE name=Button value=#null
+// KDL_EVENT_ARGUMENT value=3
+// KDL_EVENT_START_NODE name=Key value=#null
+// KDL_EVENT_ARGUMENT value=Key_Grave
+// KDL_EVENT_END_NODE value=#null
+// KDL_EVENT_END_NODE value=#null
+// KDL_EVENT_START_NODE name=Button value=#null
+// KDL_EVENT_ARGUMENT value=4
+// KDL_EVENT_START_NODE name=Button value=#null
+// KDL_EVENT_ARGUMENT value=3
+// KDL_EVENT_END_NODE value=#null
+// KDL_EVENT_END_NODE value=#null
+// KDL_EVENT_START_NODE name=Button value=#null
+// KDL_EVENT_ARGUMENT value=5
+// KDL_EVENT_START_NODE name=Key value=#null
+// KDL_EVENT_ARGUMENT value=Key_1
+// KDL_EVENT_END_NODE value=#null
+// KDL_EVENT_END_NODE value=#null
+// KDL_EVENT_START_NODE name=Button value=#null
+// KDL_EVENT_ARGUMENT value=9
+// KDL_EVENT_START_NODE name=Macro value=#null
+// KDL_EVENT_ARGUMENT value=KEY_A
+// KDL_EVENT_END_NODE value=#null
+// KDL_EVENT_END_NODE value=#null
+// KDL_EVENT_START_NODE name=Button value=#null
+// KDL_EVENT_ARGUMENT value=10
+// KDL_EVENT_START_NODE name=Macro value=#null
+// KDL_EVENT_ARGUMENT value=KEY_M
+// KDL_EVENT_END_NODE value=#null
+// KDL_EVENT_END_NODE value=#null
+// KDL_EVENT_START_NODE name=Led value=#null
+// KDL_EVENT_ARGUMENT value=1
+// KDL_EVENT_START_NODE name=Mode value=#null
+// KDL_EVENT_ARGUMENT value=off
+// KDL_EVENT_END_NODE value=#null
+// KDL_EVENT_START_NODE name=Color value=#null
+// KDL_EVENT_ARGUMENT value=385875967
+// KDL_EVENT_END_NODE value=#null
+// KDL_EVENT_START_NODE name=Duration value=#null
+// KDL_EVENT_ARGUMENT value=10
+// KDL_EVENT_END_NODE value=#null
+// KDL_EVENT_START_NODE name=Brightness value=#null
+// KDL_EVENT_ARGUMENT value=10
+// KDL_EVENT_END_NODE value=#null
+// KDL_EVENT_END_NODE value=#null
+// KDL_EVENT_START_NODE name=DPI value=#null
+// KDL_EVENT_ARGUMENT value=10
+// KDL_EVENT_END_NODE value=#null
+// KDL_EVENT_START_NODE name=Resolution value=#null
+// KDL_EVENT_ARGUMENT value=0
+// KDL_EVENT_PROPERTY name=enable value=#false
+// KDL_EVENT_END_NODE value=#null
+// KDL_EVENT_START_NODE name=Resolution value=#null
+// KDL_EVENT_ARGUMENT value=1
+// KDL_EVENT_PROPERTY name=enable value=#false
+// KDL_EVENT_END_NODE value=#null
+// KDL_EVENT_START_NODE name=Resolution value=#null
+// KDL_EVENT_ARGUMENT value=3
+// KDL_EVENT_PROPERTY name=enable value=#true
+// KDL_EVENT_PROPERTY name=default value=#true
+// KDL_EVENT_PROPERTY name=active value=#true
+// KDL_EVENT_END_NODE value=#null
+// KDL_EVENT_END_NODE value=#null
+// KDL_EVENT_EOF value=#null
