@@ -23,10 +23,10 @@ Profile 1  active=#true {
      Duration 10
      Brightness 10
    }
+   Resolution 0 enable=#false
+   Resolution 1 enable=#false
    Resolution 3 enable=#true active=#true {
      DPI 10
    }
-   Resolution 0 enable=#false
-   Resolution 1 enable=#false
 }
 
