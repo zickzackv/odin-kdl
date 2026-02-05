@@ -1,4 +1,5 @@
 package kdlExample
+
 import "base:runtime"
 
 import sa "core:container/small_array"
@@ -31,7 +32,7 @@ Button :: struct {
 }
 
 Led :: struct {
-  number:     int,
+	number:     int,
 	mode:       int,
 	color:      int,
 	duration:   int,
@@ -108,7 +109,7 @@ main :: proc() {
 
 	profile := Profile{}
 	parse_kdl(parser, &profile)
-	fmt.printfln("%#v", profile)
+	print_profile(profile)
 }
 
 parse_kdl :: proc(parser: ^kdl.parser, p: ^Profile) {
@@ -213,7 +214,7 @@ handle_argument :: proc(s: ^Parser_State, ev: ^kdl.event_data) {
 	case .Rate:
 		if ev.value.type == .NUMBER do s.profile.rate = int(ev.value.number.integer)
 	case .Led:
-  	if ev.value.type == .NUMBER do s.current_led.number = int(ev.value.number.integer)
+		if ev.value.type == .NUMBER do s.current_led.number = int(ev.value.number.integer)
 	case .Mode:
 		if ev.value.type == .STRING {
 			mode_value := string(ev.value.string.data)
@@ -231,7 +232,7 @@ handle_argument :: proc(s: ^Parser_State, ev: ^kdl.event_data) {
 	case .Brightness:
 		if ev.value.type == .NUMBER do s.current_led.brightness = int(ev.value.number.integer)
 	case .Resolution:
-  	if ev.value.type == .NUMBER do s.current_res.number = int(ev.value.number.integer)
+		if ev.value.type == .NUMBER do s.current_res.number = int(ev.value.number.integer)
 	case .DPI:
 		if ev.value.type == .NUMBER do s.current_res.dpi = int(ev.value.number.integer)
 	}
@@ -264,9 +265,8 @@ handle_property :: proc(state: ^Parser_State, ev: ^kdl.event_data) {
 reader :: proc "c" (file: rawptr, buffer: cstring, size: uint) -> uint {
 	context = runtime.default_context()
 	read_bytes, error := os.read(cast(^os.File)file, ([^]u8)(buffer)[:size])
-	if error != nil {
+	if error != nil && error != .EOF {
 		fmt.println(error)
-		return cast(uint)read_bytes
 	}
 	return cast(uint)read_bytes
 }
